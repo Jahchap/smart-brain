@@ -1,0 +1,34 @@
+img#face {
+	width: 500px;
+	height: auto;
+	border-radius: 5px;
+}
+
+.bounding-box {
+	position: absolute;
+	box-shadow: 0 0 0 3px #149df2 inset;
+	/*border: solid #149df2 3px;*/
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	cursor: pointer;
+}
+.bounding-box:hover {
+	position: absolute;
+	box-shadow: none;
+	/*border: none;*/
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	cursor: pointer;
+}
