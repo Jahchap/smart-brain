@@ -63,7 +63,7 @@ class App extends Component {
         return;
       }
       this.setState({imageUrl: this.state.input}, () => {
-        fetch('http://localhost:4000/imageurl', {
+        fetch('https://secret-shore-98981.herokuapp.com/imageurl', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
@@ -76,7 +76,7 @@ class App extends Component {
             if(response === "Unable to work with API"){
               return;
             }
-            fetch('http://localhost:4000/image', {
+            fetch('https://secret-shore-98981.herokuapp.com/image', {
               method: 'put',
               headers: {'Content-Type': 'application/json'},
               body: JSON.stringify({
